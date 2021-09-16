@@ -51,8 +51,16 @@ export default {
       cvRequest: false
     }
   },
+  head() {
+    return {
+      script: [{
+        src: "https://www.google.com/recaptcha/api.js?render=6LeaOnAcAAAAADtzMyTsevduxEF2qHB-Sv2uzmGP"
+      }]
+    }
+  },
   created() {
     kwesforms.init();
-  }
+  },
+
 }
 </script>
