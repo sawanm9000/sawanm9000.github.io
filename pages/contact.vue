@@ -34,7 +34,7 @@
         </label>
 
         <label class="block">
-          <span>Are you human?<span class="text-red-600">*</span></span>
+          <span>Are you a robot?<span class="text-red-600">*</span></span>
           <div class="g-recaptcha mx-auto mt-1" data-sitekey="6LfwaXAcAAAAAIRTID-LFsPM6-CiJuOq5vDrWneb"></div>
         </label>
 
