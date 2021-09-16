@@ -1,7 +1,8 @@
 <template>
   <div class="pt-32 overflow-x-hidden min-h-screen w-full absolute top-0 flex justify-center">
     <div class="w-full flex justify-center items-center flex-col">
-      <form action="https://www.example.com" class="grid grid-cols-1 gap-y-4 max-w-md w-full content-start px-3 sm:px-0 flex-grow bg-gray-100 pb-24">
+      <form action="https://www.example.com" class="grid grid-cols-1 gap-y-4 max-w-md w-full content-start px-3 sm:px-0 flex-grow bg-gray-100 pb-24" has-recaptcha-v3
+    recaptcha-site-key="6LeaOnAcAAAAADtzMyTsevduxEF2qHB-Sv2uzmGP">
         <label class="block">
           <span>Name<span class="text-red-600">*</span></span>
           <input id="name" type="text" name="name" class="mt-1 block w-full">
