@@ -1,7 +1,7 @@
 <template>
   <div class="pt-32 overflow-x-hidden min-h-screen w-full absolute top-0 flex justify-center">
     <div class="w-full flex justify-center items-center flex-col">
-      <form action="https://kwesforms.com/api/foreign/forms/90oV3Vjk6J261C8jDRU7" class="grid grid-cols-1 gap-y-4 max-w-md w-full content-start px-3 sm:px-0 flex-grow bg-gray-100 pb-24 kwes-form" has-recaptcha-v3
+      <form name="contact-form" action="https://kwesforms.com/api/foreign/forms/90oV3Vjk6J261C8jDRU7" class="grid grid-cols-1 gap-y-4 max-w-md w-full content-start px-3 sm:px-0 flex-grow bg-gray-100 pb-24 kwes-form" has-recaptcha-v3
     recaptcha-site-key="6LeaOnAcAAAAADtzMyTsevduxEF2qHB-Sv2uzmGP">
         <label class="block">
           <span>Name<span class="text-red-600">*</span></span>
@@ -10,7 +10,7 @@
 
         <label class="block">
           <span>Email address<span class="text-red-600">*</span></span>
-          <input id="email" type="email" name="email" class="mt-1 block w-full" rules="required|max:255">
+          <input id="email" type="email" name="email" class="mt-1 block w-full" rules="required|max:255|email">
         </label>
 
 
@@ -34,7 +34,7 @@
           <textarea id="message" type="text" name="message" class="mt-1 block w-full" rules="required"></textarea>
         </label>
 
-        <input type="submit" value="Send" class="bg-yellow-500 hover:bg-yellow-400 px-5 py-2.5 rounded-sm uppercase text-sm font-bold text-gray-900 hover:text-black border-t border-yellow-300 shadow-md tracking-wide w-max justify-self-end cursor-pointer">
+        <button type="submit" value="Send" class="bg-yellow-500 hover:bg-yellow-400 px-5 py-2.5 rounded-sm uppercase text-sm font-bold text-gray-900 hover:text-black border-t border-yellow-300 shadow-md tracking-wide w-max justify-self-end cursor-pointer">Send</button>
       </form>
 
       <Footer />
@@ -44,6 +44,10 @@
 
 <script>
 import kwesforms from 'kwesforms';
+import Vue from 'vue';
+import { VueReCaptcha } from 'vue-recaptcha-v3';
+
+Vue.use(VueReCaptcha, { siteKey: '6LeaOnAcAAAAADtzMyTsevduxEF2qHB-Sv2uzmGP' })
 
 export default {
   data() {
@@ -58,9 +62,14 @@ export default {
       }]
     }
   },
-  created() {
+  mounted() {
     kwesforms.init();
   },
+  methods: {
+    submitForm(e) {
+      e.preventDefault();
 
+    }
+  }
 }
 </script>
