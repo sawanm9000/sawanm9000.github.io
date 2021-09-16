@@ -1,11 +1,10 @@
 <template>
   <div class="pt-32 overflow-x-hidden min-h-screen w-full absolute top-0 flex justify-center">
     <div class="w-full flex justify-center items-center flex-col">
-      <form name="contact-form" action="https://kwesforms.com/api/foreign/forms/90oV3Vjk6J261C8jDRU7" class="grid grid-cols-1 gap-y-4 max-w-md w-full content-start px-3 sm:px-0 flex-grow bg-gray-100 pb-24 kwes-form" has-recaptcha-v3
-    recaptcha-site-key="6LeaOnAcAAAAADtzMyTsevduxEF2qHB-Sv2uzmGP">
+      <form name="contact-form" action="https://kwesforms.com/api/foreign/forms/90oV3Vjk6J261C8jDRU7" class="grid grid-cols-1 gap-y-4 max-w-md w-full content-start px-3 sm:px-0 flex-grow bg-gray-100 pb-24 kwes-form" has-recaptcha-v2>
         <label class="block">
           <span>Name<span class="text-red-600">*</span></span>
-          <input id="name" type="text" name="name" class="mt-1 block w-full" rules="required|max:255">
+          <input id="name" type="text" name="name" class="mt-1 block w-full border " rules="required|max:255">
         </label>
 
         <label class="block">
@@ -34,6 +33,8 @@
           <textarea id="message" type="text" name="message" class="mt-1 block w-full" rules="required"></textarea>
         </label>
 
+        <div class="g-recaptcha" data-sitekey="6LfwaXAcAAAAAIRTID-LFsPM6-CiJuOq5vDrWneb"></div>
+
         <button type="submit" value="Send" class="bg-yellow-500 hover:bg-yellow-400 px-5 py-2.5 rounded-sm uppercase text-sm font-bold text-gray-900 hover:text-black border-t border-yellow-300 shadow-md tracking-wide w-max justify-self-end cursor-pointer">Send</button>
       </form>
 
@@ -54,18 +55,14 @@ export default {
   head() {
     return {
       script: [{
-        src: "https://www.google.com/recaptcha/api.js?render=6LeaOnAcAAAAADtzMyTsevduxEF2qHB-Sv2uzmGP"
+        // src: "https://www.google.com/recaptcha/api.js?render=6LeaOnAcAAAAADtzMyTsevduxEF2qHB-Sv2uzmGP"
+        src: "https://www.google.com/recaptcha/api.js",
+        defer: true
       }]
     }
   },
   mounted() {
     kwesforms.init();
-  },
-  methods: {
-    submitForm(e) {
-      e.preventDefault();
-
-    }
   }
 }
 </script>
