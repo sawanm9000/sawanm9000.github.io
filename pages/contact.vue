@@ -1,6 +1,6 @@
 <template>
   <div class="pt-32 overflow-x-hidden min-h-screen w-full absolute top-0 flex justify-center">
-    <div class="w-full flex justify-center items-center flex-col">
+    <div class="w-full flex justify-center items-center flex-col bg-gray-100">
       <form name="contact-form" action="https://kwesforms.com/api/foreign/forms/90oV3Vjk6J261C8jDRU7" class="grid grid-cols-1 gap-y-4 max-w-md w-full content-start px-3 sm:px-0 flex-grow bg-gray-100 pb-24 kwes-form" has-recaptcha-v2>
         <label class="block">
           <span>Name<span class="text-red-600">*</span></span>
@@ -25,7 +25,7 @@
 
         <label :class="cvRequest ? 'block' : 'hidden'">
           <span>Website</span>
-          <input id="website" type="url" name="website" class="mt-1 block w-full">
+          <input id="website" type="url" name="website" class="mt-1 block w-full" rules="max:255">
         </label>
 
         <label class="block">
@@ -33,9 +33,12 @@
           <textarea id="message" type="text" name="message" class="mt-1 block w-full" rules="required"></textarea>
         </label>
 
-        <div class="g-recaptcha" data-sitekey="6LfwaXAcAAAAAIRTID-LFsPM6-CiJuOq5vDrWneb"></div>
+        <label class="block">
+          <span>Are you human?<span class="text-red-600">*</span></span>
+          <div class="g-recaptcha mx-auto mt-1" data-sitekey="6LfwaXAcAAAAAIRTID-LFsPM6-CiJuOq5vDrWneb"></div>
+        </label>
 
-        <button type="submit" value="Send" class="bg-yellow-500 hover:bg-yellow-400 px-5 py-2.5 rounded-sm uppercase text-sm font-bold text-gray-900 hover:text-black border-t border-yellow-300 shadow-md tracking-wide w-max justify-self-end cursor-pointer">Send</button>
+        <button type="submit" value="Send" class="bg-yellow-500 hover:bg-yellow-400 px-5 py-2.5 rounded-sm uppercase text-sm font-bold text-gray-900 hover:text-black border-t border-yellow-300 shadow-md tracking-wide w-max justify-self-start cursor-pointer">Send</button>
       </form>
 
       <Footer />
