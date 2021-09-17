@@ -35,8 +35,7 @@
 
         <label class="block">
           <span>Are you a robot?<span class="text-red-600">*</span></span>
-          <!-- <div class="g-recaptcha mx-auto mt-1" data-sitekey="6LfwaXAcAAAAAIRTID-LFsPM6-CiJuOq5vDrWneb"></div> -->
-          <recaptcha class="g-recaptcha mt-1" />
+          <recaptcha class="g-recaptcha mt-1 w-max" style="height: 76px" />
         </label>
 
         <button type="submit" value="Send" class="bg-yellow-500 hover:bg-yellow-400 px-5 py-2.5 rounded-sm uppercase text-sm font-bold text-gray-900 hover:text-black border-t border-yellow-300 shadow-md tracking-wide w-max cursor-pointer mt-4">Send</button>
