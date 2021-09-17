@@ -67,7 +67,7 @@ export default {}
 
 <style lang="scss" scoped>
 .cover-img {
-  background: url('/homepage/cover_photo.webp'), #1E3A8A;
+  background: url('/homepage/cover_photo.webp'), linear-gradient(90deg, rgb(0,48,78) 4%, rgb(6,32,45) 24%, rgb(11,33,47) 50%, rgb(0,42,58) 96%);
   @apply bg-center bg-cover bg-no-repeat bg-clip-border;
 }
 .text-highlight-anim {
