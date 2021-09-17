@@ -68,5 +68,12 @@ export default {
 .loading-captcha {
   background-color: #f9f9f9;
   border-color: #d3d3d3;
+<<<<<<< HEAD
+=======
+
+  &::before {
+    content: 'Loading...';
+  }
+>>>>>>> 29f8bb8240faba78b4edc8978bf741d998e5346d
 }
 </style>
