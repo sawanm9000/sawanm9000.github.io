@@ -1,7 +1,7 @@
 <template>
   <div class="pt-32 overflow-x-hidden min-h-screen w-full absolute top-0 flex justify-center">
     <div class="w-full flex justify-center items-center flex-col bg-gray-100">
-      <form name="contact-form" action="https://kwesforms.com/api/foreign/forms/90oV3Vjk6J261C8jDRU7" class="grid grid-cols-1 gap-y-4 max-w-md w-full content-start px-3 sm:px-0 flex-grow bg-gray-100 pb-24 kwes-form" has-recaptcha-v2>
+      <form ref="contactForm" name="contact-form" action="https://kwesforms.com/api/foreign/forms/90oV3Vjk6J261C8jDRU7" class="grid grid-cols-1 gap-y-4 max-w-md w-full content-start px-3 sm:px-0 flex-grow bg-gray-100 pb-24 kwes-form" has-recaptcha-v2>
         <label class="block">
           <span>Name<span class="text-red-600">*</span></span>
           <input id="name" type="text" name="name" class="mt-1 block w-full border" rules="required|min:5|max:255">
@@ -35,7 +35,8 @@
 
         <label class="block">
           <span>Are you a robot?<span class="text-red-600">*</span></span>
-          <div class="g-recaptcha mx-auto mt-1" data-sitekey="6LfwaXAcAAAAAIRTID-LFsPM6-CiJuOq5vDrWneb"></div>
+          <!-- <div class="g-recaptcha mx-auto mt-1" data-sitekey="6LfwaXAcAAAAAIRTID-LFsPM6-CiJuOq5vDrWneb"></div> -->
+          <recaptcha class="g-recaptcha mt-1" />
         </label>
 
         <button type="submit" value="Send" class="bg-yellow-500 hover:bg-yellow-400 px-5 py-2.5 rounded-sm uppercase text-sm font-bold text-gray-900 hover:text-black border-t border-yellow-300 shadow-md tracking-wide w-max cursor-pointer mt-4">Send</button>
@@ -52,19 +53,11 @@ import kwesforms from 'kwesforms';
 export default {
   data() {
     return {
-      cvRequest: false
-    }
-  },
-  head() {
-    return {
-      script: [{
-        src: "https://www.google.com/recaptcha/api.js",
-        defer: true
-      }]
+      cvRequest: false,
     }
   },
   mounted() {
     kwesforms.init();
-  }
+  },
 }
 </script>
