@@ -36,7 +36,7 @@
         <label class="block">
           <span>Are you a robot?<span class="text-red-600">*</span></span>
           <div class="relative mt-1" style="width: 304px; height: 76px">
-            <div class="loading-captcha absolute top-1.5 left-1 inset-1.5 bg-gray-200 flex justify-center items-center text-sm text-gray-700"></div>
+            <div class="loading-captcha absolute top-0 left-0 inset-x-0.5 flex justify-center items-center text-sm text-gray-700 h-full border rounded"></div>
             <recaptcha class="g-recaptcha absolute top-0 left-0 w-max" />
           </div>
         </label>
@@ -65,7 +65,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.loading-captcha::before {
-  content: 'Loading reCAPTCHA...';
+.loading-captcha {
+  background-color: #f9f9f9;
+  border-color: #d3d3d3;
+
+  &::before {
+    content: 'Loading...';
+  }
 }
 </style>
