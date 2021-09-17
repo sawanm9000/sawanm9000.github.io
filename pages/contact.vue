@@ -35,7 +35,10 @@
 
         <label class="block">
           <span>Are you a robot?<span class="text-red-600">*</span></span>
-          <recaptcha class="g-recaptcha mt-1 w-max" style="height: 76px" />
+          <div class="relative mt-1" style="width: 304px; height: 76px">
+            <div class="loading-captcha absolute top-1.5 left-1 inset-1.5 bg-gray-200 flex justify-center items-center text-sm text-gray-700"></div>
+            <recaptcha class="g-recaptcha absolute top-0 left-0 w-max h-full" />
+          </div>
         </label>
 
         <button type="submit" value="Send" class="bg-yellow-500 hover:bg-yellow-400 px-5 py-2.5 rounded-sm uppercase text-sm font-bold text-gray-900 hover:text-black border-t border-yellow-300 shadow-md tracking-wide w-max cursor-pointer mt-4">Send</button>
@@ -60,3 +63,9 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.loading-captcha::before {
+  content: 'Loading reCAPTCHA...';
+}
+</style>
