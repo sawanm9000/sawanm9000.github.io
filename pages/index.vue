@@ -1,10 +1,9 @@
 <template>
   <div class="overflow-x-hidden min-h-screen w-full absolute top-0 flex flex-col justify-between bg-gray-100">
-    <div class="h-screen max-h-screen flex-grow mb-20 overflow-hidden relative bg-center bg-cover" style="background: url(homepage/cover_photo.webp), #1E3A8A">
-      <!-- <img src="cover_photo.webp" alt="Cover photo" class="transform rotate-90 lg:rotate-0 border border-green-500 h-full"> -->
+    <div class="cover-img h-screen max-h-screen flex-grow mb-20 overflow-hidden relative">
       <div class="absolute top-0 inset-0 flex justify-center items-center flex-col text-white">
         <div class="text-lg sm:text-2xl font-bold mb-1 sm:mb-2.5">Sawan Mungroo</div>
-        <div class="text-4xl sm:text-6xl font-bold mb-3 sm:mb-5 text-center">Frontend Developer</div>
+        <div class="text-3xl sm:text-6xl font-bold mb-3 sm:mb-5 text-center">Frontend Developer</div>
         <div class="flex gap-x-3 sm:gap-x-5 mb-12 sm:mb-14 text-xs sm:text-sm uppercase font-semibold">
           <div>Websites</div>
           <div>Web Apps</div>
@@ -67,6 +66,10 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
+.cover-img {
+  background: url('/homepage/cover_photo.webp'), #1E3A8A;
+  @apply bg-center bg-cover bg-no-repeat bg-clip-border;
+}
 .text-highlight-anim {
   color: #fff;
   background: linear-gradient(to right, #c5a03a 0, #fff 15%, #c5a03a 30%);
@@ -79,8 +82,8 @@ export default {}
   -webkit-text-size-adjust: none;
   text-decoration: none;
   white-space: nowrap;
-  padding-left: 48px;
-  padding-right: 48px;
+  padding-left: 64px;
+  padding-right: 64px;
 }
 
 @keyframes shine {
@@ -88,10 +91,10 @@ export default {}
     background-position: 0;
   }
   50% {
-    background-position: 180px;
+    background-position: 250px;
   }
   100% {
-    background-position: 180px;
+    background-position: 250px;
   }
 }
 </style>
