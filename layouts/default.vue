@@ -67,12 +67,45 @@
 </script>
 
 <style lang="scss">
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-bg-color-dark);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-500;
+}
+
+:root {
+  --scrollbar-bg-color-dark: #101010;
+  --scrollbar-color: grey;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color-dark);
+}
+
 body {
   @apply h-screen overflow-x-hidden;
 }
 
 #__nuxt, #__layout {
   @apply overflow-x-hidden h-screen;
+}
+
+#__layout {
+  @apply overflow-y-scroll;
 }
 
 header > div > a {
