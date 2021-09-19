@@ -27,8 +27,11 @@
               </div>
               <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
                 <div class="font-semibold text-2xl md:text-4xl text-gray-900 group-hover:text-gray-800">Tailwind CSS Cheatsheet</div>
-                <div class=" w-full">A visual and interactive Tailwind CSS cheat sheet</div>
-                <div class="bg-green-900 text-white w-max px-2 py-0.5 rounded-md font-semibold text-sm uppercase">PWA</div>
+                <div class=" w-full">A visual and interactive Tailwind CSS cheat sheet installable as a PWA</div>
+                <div class="flex gap-x-2">
+                  <div class="pill bg-green-700">Nuxt</div>
+                  <div class="pill bg-green-800">Tailwind CSS</div>
+                </div>
               </div>
             </a>
             <NuxtLink to="/blog/browser-concept" class="md:h-64 flex gap-x-5 flex-col md:flex-row hover:shadow-sm hover:bg-white rounded-xl group">
@@ -37,8 +40,10 @@
               </div>
               <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
                 <div class="font-semibold text-2xl md:text-4xl text-gray-900 group-hover:text-gray-800">Browser Concept</div>
-                <div class=" w-full">A Firefox Concept inspired by the new Safari on MacOS Monterey</div>
-                <div class="bg-red-900 text-white w-max px-2 py-0.5 rounded-md font-semibold text-sm uppercase">Design</div>
+                <div class=" w-full">A Firefox concept inspired by the new version of Safari on MacOS Monterey</div>
+                <div class="flex gap-x-2">
+                  <div class="pill bg-blue-800">Photoshop</div>
+                </div>
               </div>
             </NuxtLink>
             <a href="https://github.com/utopianknight/24-hour-analog-clock-w-daily-routines" class="md:h-64 flex gap-x-5 flex-col md:flex-row hover:shadow-sm hover:bg-white rounded-xl group">
@@ -48,7 +53,10 @@
               <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
                 <div class="font-semibold text-2xl md:text-4xl text-gray-900 group-hover:text-gray-800">24-hour Analog Clock</div>
                 <div class=" w-full">A NW.js 24-hour analog clock with daily routines, active task and calendar</div>
-                <div class="bg-blue-900 text-white w-max px-2 py-0.5 rounded-md font-semibold text-sm uppercase">App</div>
+                <div class="flex gap-x-2">
+                  <div class="pill bg-gray-900">NW.js</div>
+                  <div class="pill bg-yellow-700">Vanilla JS</div>
+                </div>
               </div>
             </a>
             <a href="https://utopianknight.github.io" class="md:h-64 flex gap-x-5 flex-col md:flex-row hover:shadow-sm hover:bg-white rounded-xl group">
@@ -57,8 +65,11 @@
               </div>
               <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
                 <div class="font-semibold text-2xl md:text-4xl text-gray-900 group-hover:text-gray-800">Personal Site</div>
-                <div class=" w-full">Portfolio, blog and personal site</div>
-                <div class="bg-purple-900 text-white w-max px-2 py-0.5 rounded-md font-semibold text-sm uppercase">Web</div>
+                <div class=" w-full">My personal site, portfolio, and blog</div>
+                <div class="flex gap-x-2">
+                  <div class="pill bg-green-700">Nuxt</div>
+                  <div class="pill bg-green-800">Tailwind CSS</div>
+                </div>
               </div>
             </a>
           </div>
@@ -105,5 +116,9 @@ export default {}
   100% {
     background-position: 250px;
   }
+}
+
+.pill {
+  @apply text-white w-max px-2 py-0.5 rounded-md font-semibold text-sm uppercase;
 }
 </style>
