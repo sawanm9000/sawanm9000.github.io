@@ -36,7 +36,7 @@
             </a>
             <NuxtLink to="/blog/browser-concept" class="md:h-64 flex gap-x-5 flex-col md:flex-row hover:shadow-sm hover:bg-white rounded-xl group">
               <div class="bg-gray-500 max-w-sm sm:rounded-xl flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
-                <img src="homepage/browser-concept-thumb.png" alt="Browser concept">
+                <img src="homepage/browser-concept-thumb.webp" alt="Browser concept">
               </div>
               <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
                 <div class="font-semibold text-2xl md:text-4xl text-gray-900 group-hover:text-gray-800">Browser Concept</div>

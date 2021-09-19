@@ -49,7 +49,7 @@
       that could make Firefox a better browser.
     </p>
 
-    <div class="img-container body-img grid grid-cols-1 grid-rows-1 relative">
+    <div class="img-container body-img grid grid-cols-1 grid-rows-1 relative select-none">
       <figure v-for="(image, index) in images" :key="index" class="mx-auto col-start-1 row-start-1 pointer-events-none">
         <img ref="img" :src="'/blog/browser-concept/' + image.src" :alt="image.caption" class="pointer-events-auto" :class="currentImg === index ? 'visible' : 'invisible'" draggable="false" @click="nextImg">
         <figcaption ref="imgCaption" class="text-center" :class="currentImg === index ? 'visible' : 'invisible'">{{image.caption}}</figcaption>
