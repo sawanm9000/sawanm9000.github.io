@@ -28,7 +28,6 @@
     },
     methods: {
       setNavBarVisibility() {
-        console.log(this.$route.name);
         if (this.$route.name === 'index') {
           this.navBar = false;
           this.navBarColor = 'light'

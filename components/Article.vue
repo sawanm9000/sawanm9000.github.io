@@ -47,8 +47,6 @@
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
 
-  @apply flex justify-center items-center;
-
   img {
     max-height: 100vh;
   }
@@ -59,6 +57,8 @@
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
+
+  @apply flex justify-center items-center;
 }
 
 </style>

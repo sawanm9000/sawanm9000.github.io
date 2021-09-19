@@ -5,7 +5,15 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      brightness: [
+        'responsive',
+        'group-hover',
+        'focus-within',
+        'hover',
+        'focus',
+      ],
+    },
   },
   plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
 }
