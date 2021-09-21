@@ -3,10 +3,10 @@
     <div class="h-screen cover-img absolute top-0 left-0 w-full" style="transform-origin: 0; transform: translateZ(-10px) scale(3.5)"></div>
     <div class="h-screen flex justify-center items-center text-white text-4xl pointer-events-none absolute w-full z-10" style="transform-origin: 0; transform: translateZ(-1.5px) scale(1.375);">
       <div class="absolute top-0 inset-0 flex justify-center items-center flex-col text-white pointer-events-none">
-        <div class="text-lg sm:text-2xl font-bold mb-1 sm:mb-2 filter">Sawan Mungroo</div>
-        <div class="text-3xl sm:text-6xl font-bold mb-2 sm:mb-3 text-center">Frontend Developer</div>
-        <div class="text-base font-medium mb-10 text-center">Modern and meticulously crafted websites & apps (mobile, desktop & PWA)</div>
-        <div class="uppercase text-xs tracking-wider mb-1.5 hidden sm:block">Frontend Stack</div>
+        <div class="text-lg sm:text-2xl font-bold mb-1 sm:mb-2 filter text-shadow">Sawan Mungroo</div>
+        <div class="text-3xl sm:text-6xl font-bold mb-2 sm:mb-3 text-center text-shadow">Frontend Developer</div>
+        <div class="text-base font-medium mb-10 text-center text-shadow">Modern and meticulously crafted websites & apps (mobile, desktop & PWA)</div>
+        <div class="uppercase text-xs tracking-wider mb-1.5 hidden sm:block text-shadow">Frontend Stack</div>
         <div class="sm:flex flex-wrap justify-center gap-2 text-base mb-8 text-white hidden">
           <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #c13a00">HTML</div>
           <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #2476ff">CSS</div>
@@ -17,7 +17,7 @@
           <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #00ad66">Nuxt</div>
           <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #009dde">Quasar</div>
         </div>
-        <div class="uppercase text-xs tracking-wider mb-1.5 hidden sm:block">Backend Stack (Serverless and Jamstack)</div>
+        <div class="uppercase text-xs tracking-wider mb-1.5 hidden sm:block text-shadow">Backend Stack (Serverless and Jamstack)</div>
         <div class="sm:flex flex-wrap justify-center gap-2 text-base mb-10 text-white hidden">
           <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #6847ff">Strapi</div>
           <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #cc8000">Firebase</div>
@@ -140,5 +140,9 @@ export default {}
 
 .pill {
   @apply text-white w-max px-2 py-0.5 rounded-md font-semibold text-sm uppercase;
+}
+
+.text-shadow {
+  text-shadow: 0 0 26px rgba(0, 0, 0, 1);
 }
 </style>
