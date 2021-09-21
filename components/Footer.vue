@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-gray-300 w-screen">
-    <div class="h-16 flex justify-between items-center gap-x-9 w-full max-w-screen-lg px-10 lg:px-0 mx-auto">
+    <div class="h-16 flex justify-between items-center gap-x-9 w-full max-w-screen-lg px-4 lg:px-0 mx-auto">
       <div class="text-sm text-gray-700">&copy; Sawan Mungroo 2021, unless otherwise noted. All rights reserved.</div>
       <div class="flex items-center gap-x-4">
         <NuxtLink to="/contact">

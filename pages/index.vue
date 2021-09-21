@@ -1,27 +1,42 @@
 <template>
   <div class="overflow-x-hidden h-screen max-h-screen w-full absolute top-0 bg-gray-100" style="perspective: 4px; perspective-origin: 0%;">
     <div class="h-screen cover-img absolute top-0 left-0 w-full" style="transform-origin: 0; transform: translateZ(-10px) scale(3.5)"></div>
-    <div class="h-screen flex justify-center items-center text-white text-4xl pointer-events-none absolute w-full z-10" style="transform-origin: 0; transform: translateZ(-2px) scale(1.5);">
+    <div class="h-screen flex justify-center items-center text-white text-4xl pointer-events-none absolute w-full z-10" style="transform-origin: 0; transform: translateZ(-1.5px) scale(1.375);">
       <div class="absolute top-0 inset-0 flex justify-center items-center flex-col text-white pointer-events-none">
-        <div class="text-lg sm:text-2xl font-bold mb-1 sm:mb-2.5 filter drop-shadow-md">Sawan Mungroo</div>
-        <div class="text-3xl sm:text-6xl font-bold mb-3 sm:mb-5 text-center">Frontend Developer</div>
-        <div class="flex gap-x-3 sm:gap-x-5 mb-12 sm:mb-14 text-xs sm:text-sm uppercase font-semibold">
-          <div>Websites</div>
-          <div>Web Apps</div>
-          <div>Mobile & Desktop Apps</div>
+        <div class="text-lg sm:text-2xl font-bold mb-1 sm:mb-2 filter">Sawan Mungroo</div>
+        <div class="text-3xl sm:text-6xl font-bold mb-2 sm:mb-3 text-center">Frontend Developer</div>
+        <div class="text-base font-medium mb-10 text-center">Modern and meticulously crafted websites & apps (mobile, desktop & PWA)</div>
+        <div class="uppercase text-xs tracking-wider mb-1.5 hidden sm:block">Frontend Stack</div>
+        <div class="sm:flex flex-wrap justify-center gap-2 text-base mb-8 text-white hidden">
+          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #c13a00">HTML</div>
+          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #2476ff">CSS</div>
+          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #bd7f00">JavaScript</div>
+          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #a7366d">Sass</div>
+          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #00a4ba">Tailwind CSS</div>
+          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #008c4e">Vue</div>
+          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #00ad66">Nuxt</div>
+          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #009dde">Quasar</div>
         </div>
-        <div class="mb-2 text-highlight-anim font-medium shadow-sm text-base">Available for hire!</div>
-        <NuxtLink to="/contact" class="bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 px-5 rounded-sm h-10 flex items-center uppercase text-sm font-bold text-gray-900 hover:text-black border-t border-yellow-400 shadow-md hover:shadow-lg tracking-wide pointer-events-auto">Get in touch</NuxtLink>
+        <div class="uppercase text-xs tracking-wider mb-1.5 hidden sm:block">Backend Stack (Serverless and Jamstack)</div>
+        <div class="sm:flex flex-wrap justify-center gap-2 text-base mb-10 text-white hidden">
+          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #6847ff">Strapi</div>
+          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #cc8000">Firebase</div>
+          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #444">GitHub Pages</div>
+          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #b35a0c">Cloudflare Pages</div>
+        </div>
+        <div class="mb-2 text-highlight-anim font-medium text-base">Available for hire!</div>
+        <NuxtLink to="/contact" class="bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 px-5 rounded-sm h-10 flex items-center uppercase text-sm font-bold text-gray-900 hover border-t border-yellow-400 shadow-md hover:shadow-lg tracking-wide pointer-events-auto">Get in touch</NuxtLink>
       </div>
     </div>
     <div class="origin-left absolute top-0 w-full pointer-events-none z-0" style="transform: translateZ(0)">
       <div class="cover-bg-gradient h-screen w-full">
         <Header class="pointer-events-auto" color='light' />
       </div>
-      <div class="bg-gray-100 min-h-screen">
+      <div class="bg-gradient-to-br from-gray-300 to-gray-50 min-h-screen">
         <div class="max-w-screen-md mx-auto">
-          <div class="flex flex-col gap-y-14 md:gap-y-12 mb-20 md:w-screen max-w-3xl pointer-events-auto">
-            <a href="https://utopianknight.github.io/Tailwind-CSS-Cheatsheet/" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group mt-20">
+          <div class="flex flex-col gap-y-14 md:gap-y-12 pb-20 md:w-screen max-w-3xl pointer-events-auto ">
+          <div class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700">Projects</div>
+            <a href="https://utopianknight.github.io/Tailwind-CSS-Cheatsheet/" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
               <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
                 <img src="homepage/tw-cheatsheet-thumb.png" alt="Tailwind CSS Cheatsheet">
               </div>
