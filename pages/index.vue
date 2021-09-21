@@ -87,7 +87,7 @@ export default {}
 
 <style lang="scss" scoped>
 .cover-img {
-  background: url('/homepage/cover_photo.webp'), linear-gradient(90deg, rgba(18,39,58,1) 6%, rgba(5,65,99,1) 24%, rgba(0,43,78,1) 50%, rgba(21,37,50,1) 73%, rgba(16,48,63,1) 95%);
+  background: url('/homepage/cover_photo.webp'), black;
   @apply bg-center bg-cover bg-no-repeat bg-clip-border;
 }
 

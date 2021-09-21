@@ -20,7 +20,7 @@
 
 <style lang="scss" scoped>
 h4 {
-  @apply font-bold text-2xl mb-3;
+  @apply font-light text-4xl mb-3;
 }
 
 .post {
@@ -28,6 +28,6 @@ h4 {
     @apply uppercase bg-gray-400 text-gray-100 px-2 rounded;
   }
 
-  @apply mb-8 block hover:bg-gray-300 p-4 rounded w-full max-w-screen-md mx-auto;
+  @apply mb-8 block hover:bg-gray-50 hover:text-yellow-900 p-4 rounded-sm w-full max-w-screen-md mx-auto;
 }
 </style>
