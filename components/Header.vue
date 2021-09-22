@@ -6,15 +6,15 @@
       </NuxtLink>
 
       <div class="hidden sm:flex gap-x-4 text-sm tracking-wide">
-        <NuxtLink to="/" class="border px-3 py-1.5 rounded-sm border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-white' : 'border-black'">Home</NuxtLink>
-        <NuxtLink to="/blog" class="border px-3 py-1.5 rounded-sm border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-white' : 'border-black'">Blog</NuxtLink>
-        <NuxtLink to="/contact" class="border px-3 py-1.5 rounded-sm border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-white' : 'border-black'">Contact</NuxtLink>
+        <NuxtLink to="/" class="border-b px-3 py-1.5 border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-white' : 'border-black'">Home</NuxtLink>
+        <NuxtLink to="/blog" class="border-b px-3 py-1.5 border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-white' : 'border-black'">Blog</NuxtLink>
+        <NuxtLink to="/contact" class="border-b px-3 py-1.5 border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-white' : 'border-black'">Contact</NuxtLink>
       </div>
 
       <div v-if="drawer" class="fixed top-0 h-screen bg-gray-900 w-full flex flex-col gap-y-4 justify-center items-center text-md font-light tracking-wide z-0">
-        <NuxtLink to="/" class="border px-3 py-1.5 text-white border-white rounded-sm border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-black' : 'border-white'">Home</NuxtLink>
-        <NuxtLink to="/blog" class="border px-3 py-1.5 text-white border-white rounded-sm border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-black' : 'border-white'">Blog</NuxtLink>
-        <NuxtLink to="/contact" class="border px-3 py-1.5 text-white border-white rounded-sm border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-black' : 'border-white'">Contact</NuxtLink>
+        <NuxtLink to="/" class="border-b px-3 py-1.5 text-white border-white border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-black' : 'border-white'">Home</NuxtLink>
+        <NuxtLink to="/blog" class="border-b px-3 py-1.5 text-white border-white border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-black' : 'border-white'">Blog</NuxtLink>
+        <NuxtLink to="/contact" class="border-b px-3 py-1.5 text-white border-white border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-black' : 'border-white'">Contact</NuxtLink>
       </div>
 
       <div class="absolute right-4 top-3 flex sm:hidden">
@@ -53,6 +53,7 @@
 <style lang="scss" scoped>
 header > div > a {
   opacity: 0.85;
+  font-family: 'Readex Pro Light', sans-serif;
 }
 
 .nuxt-link-exact-active {

@@ -4,7 +4,7 @@
     <div class="h-screen flex justify-center items-center text-white text-4xl pointer-events-none absolute w-full z-10" style="transform-origin: 0; transform: translateZ(-1.5px) scale(1.375);">
       <div class="absolute top-0 inset-0 flex justify-center items-center flex-col text-white pointer-events-none">
         <div class="text-lg sm:text-2xl font-bold mb-1 sm:mb-2 filter text-shadow">Sawan Mungroo</div>
-        <div class="text-3xl sm:text-6xl font-bold mb-2 sm:mb-3 text-center text-shadow">Frontend Developer</div>
+        <h1 class="text-3xl sm:text-6xl font-bold mb-2 sm:mb-3 text-center text-shadow">Frontend Developer</h1>
         <div class="text-base font-medium mb-10 text-center text-shadow">Modern and meticulously crafted websites & apps (mobile, desktop & PWA)</div>
         <div class="uppercase text-xs tracking-wider mb-1.5 hidden sm:block text-shadow">Frontend Stack</div>
         <div class="sm:flex flex-wrap justify-center gap-2 text-base mb-8 text-white hidden">
@@ -25,7 +25,7 @@
           <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #b35a0c">Cloudflare Pages</div>
         </div>
         <div class="mb-2 text-highlight-anim font-medium text-base">Available for hire!</div>
-        <NuxtLink to="/contact" class="bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 px-5 rounded-sm h-10 flex items-center uppercase text-sm font-bold text-gray-900 hover border-t border-yellow-400 shadow-md hover:shadow-lg tracking-wide pointer-events-auto">Get in touch</NuxtLink>
+        <NuxtLink to="/contact" class="bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 px-5 rounded-sm h-10 flex items-center uppercase text-sm font-bold text-black hover border-t border-yellow-400 shadow-md hover:shadow-lg tracking-wide pointer-events-auto">Get in touch</NuxtLink>
       </div>
     </div>
     <div class="origin-left absolute top-0 w-full pointer-events-none z-0" style="transform: translateZ(0)">
@@ -35,13 +35,13 @@
       <div class="bg-gradient-to-br from-gray-300 to-gray-50 min-h-screen">
         <div class="max-w-screen-md mx-auto">
           <div class="flex flex-col gap-y-14 md:gap-y-12 pb-20 md:w-screen max-w-3xl pointer-events-auto ">
-          <div class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700">Projects</div>
+          <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700">Projects</h2>
             <a href="https://utopianknight.github.io/Tailwind-CSS-Cheatsheet/" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
               <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
                 <img src="homepage/tw-cheatsheet-thumb.png" alt="Tailwind CSS Cheatsheet">
               </div>
               <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
-                <div class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Tailwind CSS Cheatsheet</div>
+                <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Tailwind CSS Cheatsheet</h3>
                 <div class=" w-full group-hover:text-yellow-900">A visual and interactive Tailwind CSS cheat sheet installable as a PWA</div>
                 <div class="flex gap-x-2">
                   <div class="pill bg-green-700">Nuxt</div>
@@ -54,7 +54,7 @@
                 <img src="homepage/browser-concept-thumb.webp" alt="Browser concept">
               </div>
               <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
-                <div class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Browser Concept</div>
+                <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Browser Concept</h3>
                 <div class=" w-full group-hover:text-yellow-900">A Firefox concept inspired by the new version of Safari on MacOS Monterey</div>
                 <div class="flex gap-x-2">
                   <div class="pill bg-blue-800">Photoshop</div>
@@ -66,7 +66,7 @@
                 <img src="homepage/clock-thumb.png" alt="24-hour analog clock">
               </div>
               <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
-                <div class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">24-hour Analog Clock</div>
+                <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">24-hour Analog Clock</h3>
                 <div class=" w-full group-hover:text-yellow-900">A NW.js 24-hour analog clock with daily routines, active task and calendar</div>
                 <div class="flex gap-x-2">
                   <div class="pill bg-gray-900">NW.js</div>
@@ -79,7 +79,7 @@
                 <img src="homepage/personal-site-thumb.png" alt="Personal site">
               </div>
               <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
-                <div class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Personal Site</div>
+                <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Personal Site</h3>
                 <div class=" w-full group-hover:text-yellow-900">Responsive personal site, portfolio, and blog</div>
                 <div class="flex gap-x-2">
                   <div class="pill bg-green-700">Nuxt</div>
@@ -144,5 +144,18 @@ export default {}
 
 .text-shadow {
   text-shadow: 0 0 26px rgba(0, 0, 0, 1);
+}
+
+// h1 {
+  // font-family: 'Readex Pro Light', sans-serif;
+  // font-family: 'Futura PT Book', 'Readex Pro Light', sans-serif;
+// }
+
+h2 {
+  font-family: 'Futura PT Book', 'Readex Pro Light', sans-serif !important;
+}
+
+h3 {
+  font-family: 'Readex Pro ExtraLight', sans-serif !important;
 }
 </style>

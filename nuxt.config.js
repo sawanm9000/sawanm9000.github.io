@@ -19,7 +19,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['~assets/css/global.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -44,7 +44,7 @@ export default {
       {
         /* reCAPTCHA options */
         siteKey: '6LfwaXAcAAAAAIRTID-LFsPM6-CiJuOq5vDrWneb',
-        version: 2
+        version: 2,
       },
     ],
   ],
