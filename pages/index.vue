@@ -8,21 +8,21 @@
         <div class="text-base mb-10 text-center text-shadow tracking-wide readex-light">Modern and meticulously crafted websites & apps (mobile, desktop & PWA)</div>
         <div class="uppercase text-xs tracking-wider mb-1.5 text-shadow">Frontend Stack</div>
         <div class="flex flex-wrap justify-center gap-2 text-base mb-8 text-white font-sans">
-          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #c13a00">HTML</div>
-          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #2476ff">CSS</div>
-          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #bd7f00">JavaScript</div>
-          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #a7366d">Sass</div>
-          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #00a4ba">Tailwind CSS</div>
-          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #008c4e">Vue</div>
-          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #00ad66">Nuxt</div>
-          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #009dde">Quasar</div>
+          <div class="pill" style="background-color: #c13a00">HTML</div>
+          <div class="pill" style="background-color: #2476ff">CSS</div>
+          <div class="pill" style="background-color: #bd7f00">JavaScript</div>
+          <div class="pill" style="background-color: #a7366d">Sass</div>
+          <div class="pill" style="background-color: #00a4ba">Tailwind CSS</div>
+          <div class="pill" style="background-color: #008c4e">Vue</div>
+          <div class="pill" style="background-color: #00ad66">Nuxt</div>
+          <div class="pill" style="background-color: #009dde">Quasar</div>
         </div>
         <div class="uppercase text-xs tracking-wider mb-1.5 text-shadow">Backend Stack (Serverless and Jamstack)</div>
         <div class="flex flex-wrap justify-center gap-2 text-base mb-10 text-white font-sans">
-          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #6847ff">Strapi</div>
-          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #cc8000">Firebase</div>
-          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #444">GitHub Pages</div>
-          <div class="rounded px-1.5 font-medium uppercase text-sm" style="background-color: #b35a0c">Cloudflare Pages</div>
+          <div class="pill" style="background-color: #6847ff">Strapi</div>
+          <div class="pill" style="background-color: #cc8000">Firebase</div>
+          <div class="pill" style="background-color: #444">GitHub Pages</div>
+          <div class="pill" style="background-color: #b35a0c">Cloudflare Pages</div>
         </div>
         <div class="mb-2 text-highlight-anim font-medium text-base">Available for hire!</div>
         <NuxtLink to="/contact" class="bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 px-5 rounded-sm h-10 flex items-center uppercase text-sm text-black hover border-t border-yellow-400 shadow-md hover:shadow-lg pointer-events-auto readex-semibold">Get in touch</NuxtLink>
@@ -139,7 +139,7 @@ export default {}
 }
 
 .pill {
-  @apply text-white w-max px-2 py-0.5 rounded-md font-semibold text-sm uppercase;
+  @apply text-white w-max px-1.5 rounded font-semibold text-sm uppercase font-sans tracking-wide;
 }
 
 .text-shadow {
@@ -173,7 +173,7 @@ export default {}
   font-family: 'Readex Pro Light', sans-serif !important;
 }
 
-.readex-extalight {
+.readex-extralight {
   font-family: 'Readex Pro ExtraLight', sans-serif !important;
 }
 
