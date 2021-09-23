@@ -111,7 +111,7 @@
             <div class="text-center futura text-3xl mb-6">
               Ready to bring your ideas to life?
             </div>
-            <NuxtLink to="/contact" class="flex justify-center flex-grow-0 bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 px-5 rounded-sm h-10 w-max items-center uppercase text-sm text-black text-center hover border-t border-yellow-400 shadow-md hover:shadow-lg pointer-events-auto readex-semibold">Get in touch</NuxtLink>
+            <NuxtLink to="/contact" class="flex justify-center flex-grow-0 bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 px-5 mb-16 rounded-sm h-10 w-max items-center uppercase text-sm text-black text-center hover border-t border-yellow-400 shadow-md hover:shadow-lg pointer-events-auto readex-semibold">Get in touch</NuxtLink>
           </div>
         </div>
       </div>
@@ -121,7 +121,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  transition: 'home'
+}
 </script>
 
 <style lang="scss" scoped>

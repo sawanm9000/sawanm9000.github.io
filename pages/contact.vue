@@ -53,6 +53,7 @@
 import kwesforms from 'kwesforms';
 
 export default {
+  transition: 'home',
   data() {
     return {
       cvRequest: false,

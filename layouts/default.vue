@@ -41,6 +41,9 @@
 </script>
 
 <style lang="scss">
+.home-enter-active, .home-leave-active { transition: opacity .2s; }
+.home-enter, .home-leave-active { opacity: 0; }
+
 ::-webkit-scrollbar {
   width: 8px;
 }
