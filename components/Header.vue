@@ -1,7 +1,6 @@
 <template>
-  <header class="h-16 absolute top-0 w-full sm:w-auto sm:inset-x-10 md:inset-x-28 lg:inset-x-40 flex flex-col sm:flex-row justify-center sm:justify-between items-center max-w-screen-lg sm:px-5 z-10 mx-auto" :class="navBarLight ? 'text-white' : 'text-black'">
-      <!-- <div>SaM</div> -->
-      <NuxtLink to="/" :class="drawer ? 'fixed z-10' : 'static'">
+  <header class="h-16 absolute top-0 w-full sm:w-auto sm:inset-x-10 md:inset-x-28 lg:inset-x-40 flex flex-col sm:flex-row justify-center sm:justify-between items-center max-w-screen-lg sm:px-5 mx-auto z-10" :class="`${navBarLight ? 'text-white' : 'text-black'} ${drawer ? 'fixed' : 'static'}`">
+      <NuxtLink to="/">
         <img src="/logo.png" alt="Logo" class="filter h-8 -mt-2">
       </NuxtLink>
 
@@ -11,7 +10,7 @@
         <NuxtLink to="/contact" class="border-b px-3 py-1.5 border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-white' : 'border-black'">Contact</NuxtLink>
       </div>
 
-      <div v-if="drawer" class="fixed top-0 h-screen bg-gray-900 w-full flex flex-col gap-y-4 justify-center items-center text-md font-light tracking-wide z-0">
+      <div v-if="drawer" class="fixed top-0 h-screen bg-gray-900 w-full flex flex-col gap-y-4 justify-center items-center text-md font-light tracking-wide">
         <NuxtLink to="/" class="border-b px-3 py-1.5 text-white border-white border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-black' : 'border-white'">Home</NuxtLink>
         <NuxtLink to="/blog" class="border-b px-3 py-1.5 text-white border-white border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-black' : 'border-white'">Blog</NuxtLink>
         <NuxtLink to="/contact" class="border-b px-3 py-1.5 text-white border-white border-opacity-0 hover:border-opacity-100 w-max uppercase" :class="navBarLight ? 'border-black' : 'border-white'">Contact</NuxtLink>

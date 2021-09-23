@@ -11,6 +11,12 @@
 </script>
 
 <style lang="scss" scoped>
+* {
+  font-family: 'Readex Pro Light', sans-serif;
+
+  @apply tracking-normal;
+}
+
 .title {
   .tag {
     @apply bg-gray-200 text-blue-900 rounded px-1.5 w-max font-semibold text-base mb-1;
