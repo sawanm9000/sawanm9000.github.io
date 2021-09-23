@@ -6,24 +6,7 @@
         <div class="text-lg sm:text-2xl mb-1 sm:mb-2 filter text-shadow readex">Sawan Mungroo</div>
         <h1 class="text-3xl sm:text-6xl mb-2 sm:mb-3 text-center text-shadow readex-semibold">Frontend Developer</h1>
         <div class="text-base mb-10 text-center text-shadow tracking-wide readex-light">Modern and meticulously crafted websites & apps (mobile, desktop & PWA)</div>
-        <div class="uppercase text-xs tracking-wider mb-1.5 text-shadow">Frontend Stack</div>
-        <div class="flex flex-wrap justify-center gap-2 text-base mb-8 text-white font-sans">
-          <div class="pill" style="background-color: #c13a00">HTML</div>
-          <div class="pill" style="background-color: #2476ff">CSS</div>
-          <div class="pill" style="background-color: #bd7f00">JavaScript</div>
-          <div class="pill" style="background-color: #a7366d">Sass</div>
-          <div class="pill" style="background-color: #00a4ba">Tailwind CSS</div>
-          <div class="pill" style="background-color: #008c4e">Vue</div>
-          <div class="pill" style="background-color: #00ad66">Nuxt</div>
-          <div class="pill" style="background-color: #009dde">Quasar</div>
-        </div>
-        <div class="uppercase text-xs tracking-wider mb-1.5 text-shadow">Backend Stack (Serverless and Jamstack)</div>
-        <div class="flex flex-wrap justify-center gap-2 text-base mb-10 text-white font-sans">
-          <div class="pill" style="background-color: #6847ff">Strapi</div>
-          <div class="pill" style="background-color: #cc8000">Firebase</div>
-          <div class="pill" style="background-color: #444">GitHub Pages</div>
-          <div class="pill" style="background-color: #b35a0c">Cloudflare Pages</div>
-        </div>
+
         <div class="mb-2 text-highlight-anim font-medium text-base">Available for hire!</div>
         <NuxtLink to="/contact" class="bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 px-5 rounded-sm h-10 flex items-center uppercase text-sm text-black hover border-t border-yellow-400 shadow-md hover:shadow-lg pointer-events-auto readex-semibold">Get in touch</NuxtLink>
       </div>
@@ -34,60 +17,101 @@
       </div>
       <div class="bg-gradient-to-br from-gray-300 to-gray-50 min-h-screen">
         <div class="max-w-screen-md mx-auto">
-          <div class="flex flex-col gap-y-14 md:gap-y-12 pb-20 md:w-screen max-w-3xl pointer-events-auto ">
-          <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700">Notable Projects</h2>
-            <a href="https://utopianknight.github.io/Tailwind-CSS-Cheatsheet/" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
-              <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
-                <img src="homepage/tw-cheatsheet-thumb.png" alt="Tailwind CSS Cheatsheet">
+          <div class="flex flex-col  pb-20 md:w-screen max-w-3xl pointer-events-auto ">
+            <div class="px-3 mt-16">
+              <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700 pb-4">Introduction</h2>
+              <p>I am Sawan Mungroo, a front-end developer. Ever since I had my first personal computer at a young age in the mid-90s, I had an endless fascination with computers. This fascination and a desire to improve people's lives around the world directed me towards web technologies, more specifically, front-end development.</p>
+              <p>During this journey, I have earned my certificate in Advanced Web Development at the National Institute of Information Technology and studied User Interface Design and Web Engineering at a British Computer Society institute.</p>
+              <p>My ambition is to create products that have a direct and positive impact on people's lives.</p>
+              <div class="readex text-lg mb-3 mt-6">Frontend Stack</div>
+              <div class="flex flex-wrap gap-2 text-base mb-8 text-white font-sans">
+                <div class="pill" style="background-color: #c13a00">HTML</div>
+                <div class="pill" style="background-color: #2476ff">CSS</div>
+                <div class="pill" style="background-color: #bd7f00">JavaScript</div>
+                <div class="pill" style="background-color: #a7366d">Sass</div>
+                <div class="pill" style="background-color: #00a4ba">Tailwind CSS</div>
+                <div class="pill" style="background-color: #008c4e">Vue</div>
+                <div class="pill" style="background-color: #00ad66">Nuxt</div>
+                <div class="pill" style="background-color: #009dde">Quasar</div>
               </div>
-              <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
-                <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Tailwind CSS Cheatsheet</h3>
-                <div class=" w-full group-hover:text-yellow-900">A visual and interactive Tailwind CSS cheat sheet installable as a PWA</div>
-                <div class="flex gap-x-2">
-                  <div class="pill bg-green-700">Nuxt</div>
-                  <div class="pill bg-green-800">Tailwind CSS</div>
+              <div class="readex text-lg mb-3">Backend Stack (Serverless and Jamstack)</div>
+              <div class="flex flex-wrap gap-2 text-base text-white font-sans">
+                <div class="pill" style="background-color: #6847ff">Strapi</div>
+                <div class="pill" style="background-color: #cc8000">Firebase</div>
+                <div class="pill" style="background-color: #444">GitHub Pages</div>
+                <div class="pill" style="background-color: #b35a0c">Cloudflare Pages</div>
+              </div>
+            </div>
+
+            <div class="px-3 mt-20">
+              <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700 pb-10">Awards</h2>
+              <p class="text-xl font-semibold">Special Achievement Award in Web Engineering</p>
+              <p class="text-lg">British Computer Society</p>
+              <p>2015</p>
+            </div>
+
+            <div class="flex flex-col gap-y-14 md:gap-y-12 mt-20">
+              <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700">Notable Works</h2>
+              <a href="https://utopianknight.github.io/Tailwind-CSS-Cheatsheet/" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
+                <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
+                  <img src="homepage/tw-cheatsheet-thumb.png" alt="Tailwind CSS Cheatsheet">
                 </div>
-              </div>
-            </a>
-            <NuxtLink to="/blog/browser-concept" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
-              <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
-                <img src="homepage/browser-concept-thumb.webp" alt="Browser concept">
-              </div>
-              <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
-                <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Browser Concept</h3>
-                <div class=" w-full group-hover:text-yellow-900">A Firefox concept inspired by the new version of Safari on MacOS Monterey</div>
-                <div class="flex gap-x-2">
-                  <div class="pill bg-blue-800">Photoshop</div>
+                <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
+                  <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Tailwind CSS Cheatsheet</h3>
+                  <div class=" w-full group-hover:text-yellow-900">A visual and interactive Tailwind CSS cheat sheet installable as a PWA</div>
+                  <div class="flex gap-x-2">
+                    <div class="pill bg-green-700">Nuxt</div>
+                    <div class="pill bg-green-800">Tailwind CSS</div>
+                  </div>
                 </div>
-              </div>
-            </NuxtLink>
-            <a href="https://github.com/utopianknight/24-hour-analog-clock-w-daily-routines" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
-              <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
-                <img src="homepage/clock-thumb.png" alt="24-hour analog clock">
-              </div>
-              <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
-                <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">24-hour Analog Clock</h3>
-                <div class=" w-full group-hover:text-yellow-900">A NW.js 24-hour analog clock with daily routines, active task and calendar</div>
-                <div class="flex gap-x-2">
-                  <div class="pill bg-gray-900">NW.js</div>
-                  <div class="pill bg-yellow-700">Vanilla JS</div>
+              </a>
+              <NuxtLink to="/blog/browser-concept" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
+                <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
+                  <img src="homepage/browser-concept-thumb.webp" alt="Browser concept">
                 </div>
-              </div>
-            </a>
-            <a href="https://utopianknight.github.io" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
-              <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125 sm:mx-0">
-                <img src="homepage/personal-site-thumb.png" alt="Personal site">
-              </div>
-              <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
-                <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Personal Site</h3>
-                <div class=" w-full group-hover:text-yellow-900">Responsive personal site, portfolio, and blog</div>
-                <div class="flex gap-x-2">
-                  <div class="pill bg-green-700">Nuxt</div>
-                  <div class="pill bg-green-800">Tailwind CSS</div>
-                  <div class="pill bg-pink-700">Sass</div>
+                <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
+                  <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Browser Concept</h3>
+                  <div class=" w-full group-hover:text-yellow-900">A Firefox concept inspired by the new version of Safari on MacOS Monterey</div>
+                  <div class="flex gap-x-2">
+                    <div class="pill bg-blue-800">Photoshop</div>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </NuxtLink>
+              <a href="https://github.com/utopianknight/24-hour-analog-clock-w-daily-routines" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
+                <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
+                  <img src="homepage/clock-thumb.png" alt="24-hour analog clock">
+                </div>
+                <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
+                  <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">24-hour Analog Clock</h3>
+                  <div class=" w-full group-hover:text-yellow-900">A NW.js 24-hour analog clock with daily routines, active task and calendar</div>
+                  <div class="flex gap-x-2">
+                    <div class="pill bg-gray-900">NW.js</div>
+                    <div class="pill bg-yellow-700">Vanilla JS</div>
+                  </div>
+                </div>
+              </a>
+              <a href="https://utopianknight.github.io" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
+                <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125 sm:mx-0">
+                  <img src="homepage/personal-site-thumb.png" alt="Personal site">
+                </div>
+                <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
+                  <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Personal Site</h3>
+                  <div class=" w-full group-hover:text-yellow-900">Responsive personal site, portfolio, and blog</div>
+                  <div class="flex gap-x-2">
+                    <div class="pill bg-green-700">Nuxt</div>
+                    <div class="pill bg-green-800">Tailwind CSS</div>
+                    <div class="pill bg-pink-700">Sass</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <div class="flex flex-col justify-center items-center mt-52 pb-80">
+            <div class="text-center futura text-3xl mb-6">
+              Ready to bring your ideas to life?
+            </div>
+            <NuxtLink to="/contact" class="flex justify-center flex-grow-0 bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 px-5 rounded-sm h-10 w-max items-center uppercase text-sm text-black text-center hover border-t border-yellow-400 shadow-md hover:shadow-lg pointer-events-auto readex-semibold">Get in touch</NuxtLink>
           </div>
         </div>
       </div>
@@ -102,13 +126,10 @@ export default {}
 
 <style lang="scss" scoped>
 .cover-img {
+  filter: contrast(0.9) brightness(0.7) sepia(0.3);
   background: url('/homepage/cover_photo.webp'), black;
-  @apply bg-center bg-cover bg-no-repeat bg-clip-border filter brightness-75;
+  @apply bg-center bg-cover bg-no-repeat bg-clip-border;
 }
-
-// .cover-bg-gradient {
-  // background: linear-gradient(0deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.35) 100%);
-// }
 
 .text-highlight-anim {
   color: #fff;
@@ -184,6 +205,10 @@ h2 {
 h3 {
   // font-family: 'Readex Pro ExtraLight', sans-serif;
   @apply futura-light;
+}
+
+p {
+  @apply mt-4;
 }
 
 .separator {

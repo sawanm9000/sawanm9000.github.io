@@ -41,7 +41,7 @@
           </div>
         </label>
 
-        <button type="submit" value="Send" class="bg-yellow-500 hover:bg-yellow-400 px-5 py-2.5 rounded-sm uppercase text-sm font-bold text-gray-900 hover:text-black border-t border-yellow-300 hover:border-yellow-200 shadow-sm tracking-wide w-max cursor-pointer mt-4">Send</button>
+        <button type="submit" value="Send" class="bg-yellow-500 hover:bg-yellow-400 px-5 py-2.5 rounded-sm uppercase text-sm font-black text-gray-900 hover:text-black border-t border-yellow-300 hover:border-yellow-200 shadow-sm tracking-wide w-max cursor-pointer mt-4">Send</button>
       </form>
 
       <Footer />
