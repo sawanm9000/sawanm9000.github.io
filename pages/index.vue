@@ -128,7 +128,7 @@ export default {
 
 <style lang="scss" scoped>
 .cover-img {
-  filter: contrast(0.9) brightness(0.7) sepia(0.3);
+  // filter: contrast(0.9) brightness(0.7) sepia(0.3);
   background: url('/homepage/cover_photo.webp'), black;
   @apply bg-center bg-cover bg-no-repeat bg-clip-border;
 }
