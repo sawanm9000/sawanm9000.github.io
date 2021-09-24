@@ -1,11 +1,16 @@
 <template>
   <div class="overflow-x-hidden h-screen max-h-screen w-full absolute top-0 bg-gray-100" style="perspective: 4px; perspective-origin: 0%;">
     <div class="h-screen cover-img absolute top-0 left-0 w-full" style="transform-origin: 0; transform: translateZ(-10px) scale(3.5);"></div>
-    <div class="h-screen flex justify-center items-center text-white text-4xl pointer-events-none absolute w-full" style="transform-origin: 0; transform: translateZ(-1.5px) scale(1.375);">
+    <div class="h-screen flex justify-center items-center text-white text-4xl pointer-events-none absolute w-full" style="transform-origin: 0; transform: translateZ(-2px) scale(1.5);">
       <div class="absolute top-0 inset-0 flex justify-center items-center flex-col text-white pointer-events-none readex">
         <div class="text-lg sm:text-2xl mb-1 sm:mb-2 filter text-shadow readex">Sawan Mungroo</div>
         <h1 class="text-3xl sm:text-6xl mb-2 sm:mb-3 text-center text-shadow readex-semibold">Frontend Developer</h1>
-        <div class="text-base mb-10 text-center text-shadow tracking-wide readex-light">Modern and meticulously crafted websites & apps (mobile, desktop & PWA)</div>
+        <!-- <div class="text-base mb-10 text-center text-shadow tracking-wide readex-light px-2">Modern and meticulously crafted websites & apps (mobile, desktop & PWA)</div> -->
+        <div class="mb-10 px-2 flex text-sm sm:text-base gap-x-2.5 sm:gap-x-6">
+          <div class="text-shadow readex-light">Websites</div>
+          <div class="text-shadow readex-light">Web Apps</div>
+          <div class="text-shadow readex-light">Mobile & Desktop Apps</div>
+        </div>
 
         <div class="mb-2 text-highlight-anim font-medium text-base">Available for hire!</div>
         <NuxtLink to="/contact" class="bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 px-5 rounded-sm h-10 flex items-center uppercase text-sm text-black hover border-t border-yellow-400 shadow-md hover:shadow-lg pointer-events-auto readex-semibold">Get in touch</NuxtLink>
@@ -17,40 +22,38 @@
       </div>
       <div class="bg-gradient-to-br from-gray-300 to-gray-50 min-h-screen">
         <div class="max-w-screen-md mx-auto">
-          <div class="flex flex-col  pb-20 md:w-screen max-w-3xl pointer-events-auto ">
+          <div class="flex flex-col md:w-screen max-w-3xl pointer-events-auto ">
             <div class="px-3 mt-16">
               <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700 pb-4">Introduction</h2>
               <p>I am Sawan Mungroo, a front-end developer. Ever since I had my first personal computer at a young age in the mid-90s, I had an endless fascination with computers. This fascination and a desire to improve people's lives around the world directed me towards web technologies, more specifically, front-end development.</p>
               <p>During this journey, I have earned my certificate in Advanced Web Development at the National Institute of Information Technology and studied User Interface Design and Web Engineering at a British Computer Society institute.</p>
               <p>My ambition is to create products that have a direct and positive impact on people's lives.</p>
-              <div class="readex text-lg mb-3 mt-6">Frontend Stack</div>
-              <div class="flex flex-wrap gap-2 text-base mb-8 text-white font-sans">
-                <div class="pill" style="background-color: #c13a00">HTML</div>
-                <div class="pill" style="background-color: #2476ff">CSS</div>
-                <div class="pill" style="background-color: #bd7f00">JavaScript</div>
-                <div class="pill" style="background-color: #a7366d">Sass</div>
-                <div class="pill" style="background-color: #00a4ba">Tailwind CSS</div>
-                <div class="pill" style="background-color: #008c4e">Vue</div>
-                <div class="pill" style="background-color: #00ad66">Nuxt</div>
-                <div class="pill" style="background-color: #009dde">Quasar</div>
+              <div class="readex text-base mb-3 mt-6 uppercase">Tech Stack</div>
+              <div class="flex flex-wrap gap-2 text-base mb-2 font-sans">
+                <div><span class="font-semibold">Design:</span> Adobe Photoshop, Adobe XD, Figma</div>
               </div>
-              <div class="readex text-lg mb-3">Backend Stack (Serverless and Jamstack)</div>
-              <div class="flex flex-wrap gap-2 text-base text-white font-sans">
-                <div class="pill" style="background-color: #6847ff">Strapi</div>
-                <div class="pill" style="background-color: #cc8000">Firebase</div>
-                <div class="pill" style="background-color: #444">GitHub Pages</div>
-                <div class="pill" style="background-color: #b35a0c">Cloudflare Pages</div>
+              <div class="flex flex-wrap gap-2 text-base mb-2 font-sans">
+                <div><span class="font-semibold">Frontend:</span> HTML, CSS, JavaScript, Sass, Tailwind CSS, Vue, Nuxt, Quasar</div>
+              </div>
+              <!-- <div class="readex text-lg mb-3">Backend Stack (Serverless and Jamstack)</div> -->
+              <div class="flex flex-wrap gap-2 text-base font-sans">
+                <div><span class="font-semibold">Backend (Serverless and Jamstack):</span> Strapi, Firebase, GitHub Pages, Cloudflare Pages</div>
               </div>
             </div>
 
             <div class="px-3 mt-20">
-              <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700 pb-10">Awards</h2>
-              <p class="text-xl font-semibold">Special Achievement Award in Web Engineering</p>
-              <p class="text-lg">British Computer Society</p>
-              <p>2015</p>
+                <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700 pb-10">Awards</h2>
+                <div class="flex items-center justify-between flex-col sm:flex-row gap-x-2">
+                  <div class="flex flex-col items-center sm:items-start order-last sm:order-first">
+                    <div class="text-xl font-semibold mb-1 text-center sm:text-left">Special Achievement Award in Web Engineering</div>
+                    <div class="text-lg mb-2">British Computer Society</div>
+                    <div>2017</div>
+                  </div>
+                  <img src="/homepage/shield.webp" alt="Special Achievement Award on Web Engineering. Awarded to Sawan Mungroo." width="220px" class="order-first sm:order-last mb-5" style="aspect-ratio: 220/301">
+                </div>
             </div>
 
-            <div class="flex flex-col gap-y-14 md:gap-y-12 mt-20">
+            <div class="flex flex-col gap-y-14 md:gap-y-12 mt-10">
               <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700">Notable Works</h2>
               <a href="https://utopianknight.github.io/Tailwind-CSS-Cheatsheet/" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
                 <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
@@ -105,9 +108,8 @@
                 </div>
               </a>
             </div>
-
           </div>
-          <div class="flex flex-col justify-center items-center mt-52 pb-80">
+          <div class="flex flex-col justify-center items-center h-screen">
             <div class="text-center futura text-3xl mb-6">
               Ready to bring your ideas to life?
             </div>
