@@ -24,7 +24,7 @@
         <div class="max-w-screen-md mx-auto">
           <div class="flex flex-col md:w-screen max-w-3xl pointer-events-auto ">
             <div class="px-3 mt-16">
-              <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700 pb-4">Introduction</h2>
+              <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700 pb-4">About</h2>
               <p>I am Sawan Mungroo, a front-end developer. Ever since I had my first personal computer at a young age in the mid-90s, I had an endless fascination with computers. This fascination and a desire to improve people's lives around the world directed me towards web technologies, more specifically, front-end development.</p>
               <p>During this journey, I have earned my certificate in Advanced Web Development at the National Institute of Information Technology and studied User Interface Design and Web Engineering at a British Computer Society institute.</p>
               <p>My ambition is to create products that have a direct and positive impact on people's lives.</p>
