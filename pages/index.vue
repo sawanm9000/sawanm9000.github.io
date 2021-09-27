@@ -95,7 +95,7 @@
               </a>
               <a href="https://utopianknight.github.io" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
                 <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125 sm:mx-0">
-                  <img src="homepage/personal-site-thumb.png" alt="Personal site">
+                  <img src="homepage/personal-site-thumb.jpg" alt="Personal site">
                 </div>
                 <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
                   <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Personal Site</h3>
