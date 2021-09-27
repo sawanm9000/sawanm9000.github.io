@@ -54,7 +54,7 @@
             </div>
 
             <div class="flex flex-col gap-y-14 md:gap-y-12 mt-10">
-              <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700">Notable Works</h2>
+              <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700">Recent Projects</h2>
               <a href="https://utopianknight.github.io/Tailwind-CSS-Cheatsheet/" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
                 <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
                   <img src="homepage/tw-cheatsheet-thumb.png" alt="Tailwind CSS Cheatsheet">
