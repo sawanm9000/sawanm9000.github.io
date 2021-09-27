@@ -88,12 +88,17 @@ export default {
       images: [
         { src: '1.png', caption: 'Single tab opened' },
         { src: '2.png', caption: 'Two tabs opened' },
+        { src: '2b.png', caption: 'Page scrolled' },
         { src: '3.png', caption: 'Active address bar' },
         { src: '4.png', caption: 'Expanded address bar' },
         { src: '5.png', caption: 'Dark background' },
         { src: '6.png', caption: 'Mixed background' },
+        { src: '7.png', caption: 'Inactive tab menu' },
         { src: '8.png', caption: 'Active tab menu' },
+        { src: '9.png', caption: 'Tab context menu' },
+        { src: '10.png', caption: 'New tab menu' },
         { src: '11.png', caption: 'Extensions menu' },
+        { src: '12.png', caption: 'Page context menu' },
         { src: '13.png', caption: 'Sidebar' },
         { src: '14.png', caption: 'Profile switcher' },
         { src: '15.png', caption: 'Bookmarks sidebar' },
@@ -108,6 +113,11 @@ export default {
         { src: 'PDF.png', caption: 'PDF reader in book view' },
       ],
       currentImg: 0,
+    }
+  },
+  head() {
+    return {
+      title: 'Browser concept - Sawan Mungroo',
     }
   },
 
