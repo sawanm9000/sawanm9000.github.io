@@ -49,19 +49,19 @@
       that could make Firefox a better browser.
     </p>
 
-    <div class="img-container body-img grid grid-cols-1 grid-rows-1 relative select-none">
+    <div class="img-container body-img grid grid-cols-1 grid-rows-1 relative select-none justify-center">
       <figure v-for="(image, index) in images" :key="index" class="mx-auto col-start-1 row-start-1 pointer-events-none">
         <img ref="img" :src="'/blog/browser-concept/' + image.src" :alt="image.caption" class="pointer-events-auto" :class="currentImg === index ? 'visible' : 'invisible'" draggable="false" @click="nextImg">
         <figcaption ref="imgCaption" class="text-center" :class="currentImg === index ? 'visible' : 'invisible'">{{image.caption}}</figcaption>
       </figure>
 
-      <div class="absolute mx-auto w-screen h-full pointer-events-none" style="max-width: 1366px">
-        <button class="p-4 bg-black bg-opacity-20 rounded-full text-white font-semibold uppercase text-sm tracking-wider hover:bg-opacity-50 absolute bottom-1 md:bottom-1/2 -mt-10 left-2 2xl:-left-20 pointer-events-auto" @click="previousImg">
+      <div class="col-start-1 row-start-1 w-screen h-full pointer-events-none">
+        <button class="p-4 bg-black bg-opacity-20 rounded-full text-white font-semibold uppercase text-sm tracking-wider hover:bg-opacity-50 absolute bottom-1 md:bottom-1/2 -mt-10 left-2 2xl:left-20 pointer-events-auto z-10" @click="previousImg">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
         </button>
-        <button class="p-4 bg-black bg-opacity-20 rounded-full text-white font-semibold uppercase text-sm tracking-wider hover:bg-opacity-50 absolute bottom-1 md:bottom-1/2 -mt-10 right-2 2xl:-right-20 pointer-events-auto" @click="nextImg">
+        <button class="p-4 bg-black bg-opacity-20 rounded-full text-white font-semibold uppercase text-sm tracking-wider hover:bg-opacity-50 absolute bottom-1 md:bottom-1/2 -mt-10 right-2 2xl:right-20 pointer-events-auto" @click="nextImg">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
