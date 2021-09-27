@@ -10,7 +10,7 @@
           </svg>
         </NuxtLink>
         <a href="https://github.com/utopianknight">
-          <img src="GitHub-Mark-32px.png" alt="Github" style="width: 24px; height: 24px;">
+          <img src="/GitHub-Mark-32px.png" alt="Github" style="width: 24px; height: 24px;">
         </a>
       </div>
       <!-- <img src="LI-black.png" alt="LinkedIn" style="width: 32px; height: 32px;"> -->

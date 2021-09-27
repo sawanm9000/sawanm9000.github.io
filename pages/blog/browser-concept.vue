@@ -82,6 +82,7 @@
 
 <script>
 export default {
+  layout: 'blogPost',
   data() {
     return {
       images: [
