@@ -13,7 +13,7 @@
         </div>
 
         <div class="mb-2 text-highlight-anim font-medium text-base">Available for hire!</div>
-        <NuxtLink to="/contact" class="bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 px-5 rounded-sm h-10 flex items-center uppercase text-sm text-black hover border-t border-yellow-400 shadow-md hover:shadow-lg pointer-events-auto readex-semibold">Get in touch</NuxtLink>
+        <NuxtLink to="/contact" class="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-400 hover:to-blue-500 px-5 py-5 rounded-sm h-10 flex items-center uppercase text-sm text-white hover border-t border-blue-400 shadow-md hover:shadow-lg pointer-events-auto readex-semibold">Get in touch</NuxtLink>
       </div>
     </div>
     <div class="origin-left absolute top-0 w-full pointer-events-none" style="transform: translateZ(0)">
@@ -24,11 +24,11 @@
         <div class="max-w-screen-md mx-auto">
           <div class="flex flex-col md:w-screen max-w-3xl pointer-events-auto ">
             <div class="px-3 mt-16">
-              <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700 pb-4">About</h2>
+              <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-blue-700 pb-4">About</h2>
               <p>I am Sawan Mungroo, a front-end developer. Ever since I had my first personal computer at a young age in the mid-90s, I had an endless fascination with computers. This fascination and a desire to improve people's lives around the world directed me towards web technologies, more specifically, front-end development.</p>
               <p>During this journey, I have earned my certificate in Advanced Web Development at the National Institute of Information Technology and studied User Interface Design and Web Engineering at a British Computer Society institute.</p>
               <p>My ambition is to create products that have a direct and positive impact on people's lives.</p>
-              <div class="readex text-base mb-3 mt-6 uppercase">Tech Stack</div>
+              <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-blue-700 pb-8">Tech Stack</h2>
               <div class="flex flex-wrap gap-2 text-base mb-2 font-sans">
                 <div><span class="font-semibold">Design:</span> Adobe Photoshop, Adobe XD, Figma</div>
               </div>
@@ -42,7 +42,7 @@
             </div>
 
             <div class="px-3 mt-20">
-                <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700 pb-10">Awards</h2>
+                <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-blue-700 pb-10">Awards</h2>
                 <div class="flex items-center justify-between flex-col sm:flex-row gap-x-2">
                   <div class="flex flex-col items-center sm:items-start order-last sm:order-first">
                     <div class="text-xl font-semibold mb-1 text-center sm:text-left">Special Achievement Award in Web Engineering</div>
@@ -54,14 +54,14 @@
             </div>
 
             <div class="flex flex-col gap-y-14 md:gap-y-12 mt-10">
-              <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-yellow-700">Recent Projects</h2>
+              <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-blue-700">Recent Projects</h2>
               <a href="https://utopianknight.github.io/Tailwind-CSS-Cheatsheet/" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
                 <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
                   <img src="homepage/tw-cheatsheet-thumb.png" alt="Tailwind CSS Cheatsheet">
                 </div>
                 <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
-                  <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Tailwind CSS Cheatsheet</h3>
-                  <div class=" w-full group-hover:text-yellow-900">A visual and interactive Tailwind CSS cheat sheet installable as a PWA</div>
+                  <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-blue-900">Tailwind CSS Cheatsheet</h3>
+                  <div class=" w-full group-hover:text-blue-900">A visual and interactive Tailwind CSS cheat sheet installable as a PWA</div>
                   <div class="flex gap-x-2">
                     <div class="pill bg-green-700">Nuxt</div>
                     <div class="pill bg-green-800">Tailwind CSS</div>
@@ -73,8 +73,8 @@
                   <img src="homepage/browser-concept-thumb.webp" alt="Browser concept">
                 </div>
                 <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
-                  <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Browser Concept</h3>
-                  <div class=" w-full group-hover:text-yellow-900">A Firefox concept inspired by the new version of Safari on MacOS Monterey</div>
+                  <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-blue-800">Browser Concept</h3>
+                  <div class=" w-full group-hover:text-blue-900">A Firefox concept inspired by the new version of Safari on MacOS Monterey</div>
                   <div class="flex gap-x-2">
                     <div class="pill bg-blue-800">Photoshop</div>
                   </div>
@@ -85,8 +85,8 @@
                   <img src="homepage/clock-thumb.png" alt="24-hour analog clock">
                 </div>
                 <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
-                  <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">24-hour Analog Clock</h3>
-                  <div class=" w-full group-hover:text-yellow-900">A NW.js 24-hour analog clock with daily routines, active task and calendar</div>
+                  <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-blue-800">24-hour Analog Clock</h3>
+                  <div class=" w-full group-hover:text-blue-900">A NW.js 24-hour analog clock with daily routines, active task and calendar</div>
                   <div class="flex gap-x-2">
                     <div class="pill bg-gray-900">NW.js</div>
                     <div class="pill bg-yellow-700">Vanilla JS</div>
@@ -98,8 +98,8 @@
                   <img src="homepage/personal-site-thumb.jpg" alt="Personal site">
                 </div>
                 <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
-                  <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-yellow-800">Personal Site</h3>
-                  <div class=" w-full group-hover:text-yellow-900">Responsive personal site, portfolio, and blog</div>
+                  <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-blue-800">Personal Site</h3>
+                  <div class=" w-full group-hover:text-blue-900">Responsive personal site, portfolio, and blog</div>
                   <div class="flex gap-x-2">
                     <div class="pill bg-green-700">Nuxt</div>
                     <div class="pill bg-green-800">Tailwind CSS</div>
@@ -110,10 +110,10 @@
             </div>
           </div>
           <div class="flex flex-col justify-center items-center h-screen">
-            <div class="text-center futura text-3xl mb-6">
+            <div class="text-center text-3xl mb-6">
               Ready to bring your ideas to life?
             </div>
-            <NuxtLink to="/contact" class="flex justify-center flex-grow-0 bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 px-5 mb-16 rounded-sm h-10 w-max items-center uppercase text-sm text-black text-center hover border-t border-yellow-400 shadow-md hover:shadow-lg pointer-events-auto readex-semibold">Get in touch</NuxtLink>
+            <NuxtLink to="/contact" class="flex justify-center flex-grow-0 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-400 hover:to-blue-500 px-5 py-5 mb-16 rounded-sm h-10 w-max items-center uppercase text-sm text-white text-center hover border-t border-blue-400 shadow-md hover:shadow-lg pointer-events-auto readex-semibold">Get in touch</NuxtLink>
           </div>
         </div>
       </div>
@@ -137,7 +137,7 @@ export default {
 
 .text-highlight-anim {
   color: #fff;
-  background: linear-gradient(to right, #cf8d36 0, #fff 15%, #cf8d36 30%);
+  background: linear-gradient(to right, #3d8eeb 0, #fff 15%, #3d8eeb 30%);
   background-position: 0;
   background-clip: text;
   -webkit-background-clip: text;
@@ -171,44 +171,26 @@ export default {
   text-shadow: 0 0 26px rgba(0, 0, 0, 1);
 }
 
-// h1 {
-  // font-family: 'Readex Pro Light', sans-serif;
-  // font-family: 'Futura PT Book', 'Readex Pro Light', sans-serif;
-// }
-
-.futura {
-  font-family: 'Futura PT Book', sans-serif !important;
-}
-
-.futura-light {
-  font-family: 'Futura PT Light', sans-serif !important;
-}
-
 .readex {
-  font-family: 'Readex Pro', sans-serif !important;
+  font-family: 'Exo 2',  sans-serif !important;
 }
 .readex-medium {
-  font-family: 'Readex Pro Medium', sans-serif !important;
+  font-family: 'Exo 2', sans-serif !important;
+  font-weight: medium;
 }
 .readex-semibold {
-  font-family: 'Readex Pro SemiBold', sans-serif !important;
+  font-family: 'Exo 2', sans-serif !important;
+  font-weight: bold;
 }
 
 .readex-light {
-  font-family: 'Readex Pro Light', sans-serif !important;
-}
-
-.readex-extralight {
-  font-family: 'Readex Pro ExtraLight', sans-serif !important;
-}
-
-h2 {
-  font-family: 'Futura PT Book', 'Readex Pro Light', sans-serif;
+  font-family: 'Exo 2', sans-serif !important;
+  font-weight: light;
 }
 
 h3 {
   // font-family: 'Readex Pro ExtraLight', sans-serif;
-  @apply futura-light;
+  @apply readex-light text-4xl;
 }
 
 p {
@@ -221,11 +203,11 @@ p {
 
 .separator::before {
   content: '';
-  @apply border-b absolute w-14 border-yellow-700 top-3.5 transform -translate-x-20;
+  @apply border-b absolute w-14 border-blue-700 top-3.5 transform -translate-x-20;
 }
 
 .separator::after {
   content: '';
-  @apply border-b absolute w-14 border-yellow-700 top-3.5 transform translate-x-6;
+  @apply border-b absolute w-14 border-blue-700 top-3.5 transform translate-x-6;
 }
 </style>

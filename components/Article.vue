@@ -12,7 +12,7 @@
 
 <style lang="scss" scoped>
 * {
-  font-family: 'Readex Pro Light', sans-serif;
+  font-family: 'Readex Pro', sans-serif;
 
   @apply tracking-normal;
 }

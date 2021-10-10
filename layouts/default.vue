@@ -71,7 +71,7 @@
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color-dark);
-  font-family: 'Readex Pro Light', sans-serif;
+  font-family: 'Exo 2', 'Readex Pro Light', sans-serif;
 }
 
 body {
