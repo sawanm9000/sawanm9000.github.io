@@ -1,7 +1,7 @@
 <template>
   <div class="pt-32 overflow-x-hidden min-h-screen w-full absolute top-0 flex justify-center">
     <div class="w-full flex justify-center items-center flex-col bg-gray-100">
-      <form ref="contactForm" name="contact-form" action="https://kwesforms.com/api/foreign/forms/90oV3Vjk6J261C8jDRU7" class="grid grid-cols-1 gap-y-4 max-w-md w-full content-start px-3 sm:px-0 flex-grow bg-gray-100 pb-24 kwes-form" has-recaptcha-v2>
+      <form ref="contactForm" name="contact-form" action="https://kwesforms.com/api/foreign/forms/xY6JeIDvCAQhrV5EzYDs" class="grid grid-cols-1 gap-y-4 max-w-md w-full content-start px-3 sm:px-0 flex-grow bg-gray-100 pb-24 kwes-form" has-recaptcha-v2>
         <label class="block">
           <span>Name<span class="text-red-600">*</span></span>
           <input id="name" type="text" name="name" class="mt-1 block w-full border" rules="required|min:5|max:255">
