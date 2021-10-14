@@ -43,7 +43,7 @@ export default {
       '@nuxtjs/recaptcha',
       {
         /* reCAPTCHA options */
-        siteKey: '6LfwaXAcAAAAAIRTID-LFsPM6-CiJuOq5vDrWneb',
+        siteKey: '6LeESc0cAAAAAA6qagc96d9tsC4PC427IRZd0GBD',
         version: 2,
       },
     ],
