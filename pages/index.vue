@@ -175,17 +175,14 @@ export default {
   font-family: 'Exo 2',  sans-serif !important;
 }
 .readex-medium {
-  font-family: 'Exo 2', sans-serif !important;
-  font-weight: medium;
+  font-family: 'Exo 2 Medium', sans-serif !important;
 }
 .readex-semibold {
-  font-family: 'Exo 2', sans-serif !important;
-  font-weight: bold;
+  font-family: 'Exo 2 Semi Bold', sans-serif !important;
 }
 
 .readex-light {
-  font-family: 'Exo 2', sans-serif !important;
-  font-weight: light;
+  font-family: 'Exo 2 Light', sans-serif !important;
 }
 
 h3 {
