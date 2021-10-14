@@ -9,7 +9,7 @@
             <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
           </svg>
         </NuxtLink>
-        <a href="https://github.com/utopianknight">
+        <a href="https://github.com/sawanm9000">
           <img src="/GitHub-Mark-32px.png" alt="Github" style="width: 24px; height: 24px;">
         </a>
       </div>
