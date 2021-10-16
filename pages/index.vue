@@ -55,7 +55,7 @@
 
             <div class="flex flex-col gap-y-14 md:gap-y-12 mt-10">
               <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-blue-700">Recent Projects</h2>
-              <a href="https://utopianknight.github.io/Tailwind-CSS-Cheatsheet/" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
+              <a href="https://sawanm9000.github.io/Tailwind-CSS-Cheatsheet/" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
                 <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
                   <img src="homepage/tw-cheatsheet-thumb.png" alt="Tailwind CSS Cheatsheet">
                 </div>
@@ -80,7 +80,7 @@
                   </div>
                 </div>
               </NuxtLink>
-              <a href="https://github.com/utopianknight/24-hour-analog-clock-w-daily-routines" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
+              <a href="https://github.com/sawanm9000/24-hour-analog-clock-w-daily-routines" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
                 <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
                   <img src="homepage/clock-thumb.png" alt="24-hour analog clock">
                 </div>
@@ -93,7 +93,7 @@
                   </div>
                 </div>
               </a>
-              <a href="https://utopianknight.github.io" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
+              <a href="https://sawanm9000.github.io" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
                 <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125 sm:mx-0">
                   <img src="homepage/personal-site-thumb.jpg" alt="Personal site">
                 </div>
