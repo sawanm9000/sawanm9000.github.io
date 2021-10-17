@@ -3,7 +3,7 @@
     <div class="h-screen cover-img absolute top-0 left-0 w-full" style="transform-origin: 0; transform: translateZ(-10px) scale(3.5);"></div>
     <div class="h-screen flex justify-center items-center text-white text-4xl pointer-events-none absolute w-full" style="transform-origin: 0; transform: translateZ(-2px) scale(1.5);">
       <div class="absolute top-0 inset-0 flex justify-center items-center flex-col text-white pointer-events-none readex">
-        <div class="text-lg sm:text-2xl mb-1 sm:mb-2 filter text-shadow readex">Sawan Mungroo</div>
+        <div class="text-lg sm:text-2xl mb-1 sm:mb-2 filter text-shadow readex">Sawan M</div>
         <h1 class="text-3xl sm:text-6xl mb-2 sm:mb-3 text-center text-shadow readex-semibold">Frontend Developer</h1>
         <!-- <div class="text-base mb-10 text-center text-shadow tracking-wide readex-light px-2">Modern and meticulously crafted websites & apps (mobile, desktop & PWA)</div> -->
         <div class="mb-10 px-2 flex text-sm sm:text-base gap-x-2.5 sm:gap-x-6">
@@ -25,7 +25,7 @@
           <div class="flex flex-col md:w-screen max-w-3xl pointer-events-auto ">
             <div class="px-3 mt-16">
               <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-blue-700 pb-4">About</h2>
-              <p>I am Sawan Mungroo, a front-end developer. Ever since I had my first personal computer at a young age in the mid-90s, I had an endless fascination with computers. This fascination and a desire to improve people's lives around the world directed me towards web technologies, more specifically, front-end development.</p>
+              <p>Hi. I am Sawan, a front-end developer. Ever since I had my first personal computer at a young age in the mid-90s, I had an endless fascination with computers. This fascination and a desire to improve people's lives around the world directed me towards web technologies, more specifically, front-end development.</p>
               <p>During this journey, I have earned my certificate in Advanced Web Development at the National Institute of Information Technology and studied User Interface Design and Web Engineering at a British Computer Society institute.</p>
               <p>My ambition is to create products that have a direct and positive impact on people's lives.</p>
               <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-blue-700 pb-8">Tech Stack</h2>
@@ -49,7 +49,7 @@
                     <div class="text-lg mb-2">British Computer Society</div>
                     <div>2017</div>
                   </div>
-                  <img src="/homepage/shield.webp" alt="Special Achievement Award on Web Engineering. Awarded to Sawan Mungroo." width="220px" class="order-first sm:order-last mb-5" style="aspect-ratio: 220/301">
+                  <img src="/homepage/shield.webp" alt="Special Achievement Award on Web Engineering. Awarded to Sawan M." width="220px" class="order-first sm:order-last mb-5" style="aspect-ratio: 220/301">
                 </div>
             </div>
 

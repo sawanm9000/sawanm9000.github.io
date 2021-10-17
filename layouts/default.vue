@@ -15,7 +15,7 @@
     },
     head() {
       return {
-        title: 'Sawan Mungroo - Frontend Developer',
+        title: 'Sawan M - Frontend Developer',
       }
     },
     watch: {

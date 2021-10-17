@@ -117,7 +117,7 @@ export default {
   },
   head() {
     return {
-      title: 'Browser concept - Sawan Mungroo',
+      title: 'Browser concept - Sawan M',
     }
   },
 
