@@ -41,18 +41,6 @@
               </div>
             </div>
 
-            <div class="px-3 mt-20">
-                <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-blue-700 pb-10">Awards</h2>
-                <div class="flex items-center justify-between flex-col sm:flex-row gap-x-2">
-                  <div class="flex flex-col items-center sm:items-start order-last sm:order-first">
-                    <div class="text-xl font-semibold mb-1 text-center sm:text-left">Special Achievement Award in Web Engineering</div>
-                    <div class="text-lg mb-2">British Computer Society</div>
-                    <div>2017</div>
-                  </div>
-                  <img src="/homepage/shield.webp" alt="Special Achievement Award on Web Engineering. Awarded to Sawan M." width="220px" class="order-first sm:order-last mb-5" style="aspect-ratio: 220/301">
-                </div>
-            </div>
-
             <div class="flex flex-col gap-y-14 md:gap-y-12 mt-10">
               <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-blue-700">Recent Projects</h2>
               <a href="https://sawanm9000.github.io/Tailwind-CSS-Cheatsheet/" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
