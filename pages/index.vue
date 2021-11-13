@@ -12,7 +12,6 @@
           <div class="text-shadow readex-light">Mobile & Desktop Apps</div>
         </div>
 
-        <div class="mb-2 text-highlight-anim font-medium text-base">Available for hire!</div>
         <NuxtLink to="/contact" class="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-400 hover:to-blue-500 px-5 py-5 rounded-sm h-10 flex items-center uppercase text-sm text-white hover border-t border-blue-400 shadow-md hover:shadow-lg pointer-events-auto readex-semibold">Get in touch</NuxtLink>
       </div>
     </div>
@@ -117,34 +116,6 @@ export default {
   // filter: contrast(0.9) brightness(0.7) sepia(0.3);
   background: url('/homepage/cover_photo.webp'), black;
   @apply bg-center bg-cover bg-no-repeat bg-clip-border;
-}
-
-.text-highlight-anim {
-  color: #fff;
-  background: linear-gradient(to right, #3d8eeb 0, #fff 15%, #3d8eeb 30%);
-  background-position: 0;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 3s infinite linear;
-  animation-fill-mode: forwards;
-  -webkit-text-size-adjust: none;
-  text-decoration: none;
-  white-space: nowrap;
-  padding-left: 64px;
-  padding-right: 64px;
-}
-
-@keyframes shine {
-  0% {
-    background-position: 0;
-  }
-  50% {
-    background-position: 250px;
-  }
-  100% {
-    background-position: 250px;
-  }
 }
 
 .pill {
