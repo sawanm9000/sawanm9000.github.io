@@ -28,7 +28,7 @@
                 <div><span class="font-semibold">Design:</span> Adobe Photoshop, Adobe XD, Figma</div>
               </div>
               <div class="flex flex-wrap gap-2 text-base mb-2 font-sans">
-                <div><span class="font-semibold">Frontend:</span> HTML, CSS, JavaScript, Sass, Tailwind CSS, Vue, Nuxt, Quasar</div>
+                <div><span class="font-semibold">Frontend:</span> HTML, CSS, JavaScript, Sass, Tailwind CSS, jQuery, Vue, Nuxt, Quasar</div>
               </div>
               <!-- <div class="readex text-lg mb-3">Backend Stack (Serverless and Jamstack)</div> -->
               <div class="flex flex-wrap gap-2 text-base font-sans">
