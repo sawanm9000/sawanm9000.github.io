@@ -49,6 +49,7 @@
                     <div class="pill bg-blue-500">jQuery</div>
                     <div class="pill bg-yellow-600">puppeteer.js</div>
                     <div class="pill bg-green-800">Electron</div>
+                    <div class="pill bg-blue-600">Plotly.js</div>
                   </div>
                 </div>
               </a>
