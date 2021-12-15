@@ -38,6 +38,20 @@
 
             <div class="flex flex-col gap-y-14 md:gap-y-12 mt-10">
               <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-blue-700">Recent Projects</h2>
+              <a href="https://github.com/sawanm9000/MyT-Internet-Usage" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
+                <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
+                  <img src="homepage/internet-usage-thumb.webp" alt="MyT internet usage">
+                </div>
+                <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
+                  <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-blue-900">MyT Internet Usage</h3>
+                  <div class=" w-full group-hover:text-blue-900">Visualize internet usage data by scraping ISP website</div>
+                  <div class="flex gap-x-2">
+                    <div class="pill bg-blue-500">jQuery</div>
+                    <div class="pill bg-yellow-600">puppeteer.js</div>
+                    <div class="pill bg-green-800">Electron</div>
+                  </div>
+                </div>
+              </a>
               <a href="https://www.facebook.com/DrishMassageTherapy" class="md:h-64 flex gap-x-5 flex-col md:flex-row rounded group">
                 <div class="bg-gray-500 max-w-sm sm:rounded flex-shrink-0 overflow-hidden mx-auto filter brightness-100 group-hover:brightness-125">
                   <img src="homepage/drish-fb-page.jpg" alt="Drish Massage Therapy Facebook page">
