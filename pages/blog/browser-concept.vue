@@ -110,6 +110,7 @@ export default {
         { src: '20_bookmarks_supercharged.png', caption: 'Bookmarks in cards view' },
         { src: '21.png', caption: 'Tab manager' },
         { src: '22_settings.png', caption: 'Settings' },
+        { src: '23.png', caption: 'Bottom tab bar & fullscreen' },
         { src: 'PDF.png', caption: 'PDF reader in book view' },
       ],
       currentImg: 0,
