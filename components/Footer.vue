@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-gray-300 w-screen">
     <div class="h-16 flex justify-between items-center gap-x-9 w-full max-w-screen-lg px-4 lg:px-0 mx-auto">
-      <div class="text-sm text-gray-700 flex-grow">&copy; Sawan M 2021. <br class="block sm:hidden"> All rights reserved.</div>
+      <div class="text-sm text-gray-700 flex-grow">&copy; Sawan M 2022. <br class="block sm:hidden"> All rights reserved.</div>
       <div class="flex items-center gap-x-4 flex-shrink-0 opacity-75 text-gray-800">
         <NuxtLink to="/contact">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 opacity-90" viewBox="0 0 20 20" fill="currentColor">
