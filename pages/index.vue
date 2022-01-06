@@ -25,14 +25,19 @@
             <div class="px-3 mt-16">
               <h2 class="separator mt-16 text-center uppercase tracking-wider text-xl font-light text-blue-700 pb-8">Tech Stack</h2>
               <div class="flex flex-wrap gap-2 text-base mb-2 font-sans">
-                <div><span class="font-semibold">Design:</span> Adobe Photoshop, Adobe XD, Figma</div>
+                <div><span class="font-semibold">Design:</span> Adobe Photoshop, Adobe XD, Figma, InVision Studio</div>
               </div>
               <div class="flex flex-wrap gap-2 text-base mb-2 font-sans">
-                <div><span class="font-semibold">Frontend:</span> HTML, CSS, JavaScript, Sass, Tailwind CSS, jQuery, Vue, Nuxt, Quasar</div>
+                <div><span class="font-semibold">Frontend:</span> HTML, CSS, JavaScript, TypeScript, SCSS, Tailwind CSS, jQuery, Vue, Nuxt, Quasar</div>
               </div>
-              <!-- <div class="readex text-lg mb-3">Backend Stack (Serverless and Jamstack)</div> -->
+              <div class="flex flex-wrap gap-2 text-base mb-2 font-sans">
+                <div><span class="font-semibold">Backend:</span> Node.js (Express.js), Strapi, Firebase, Heroku, GitHub Pages, Cloudflare Pages, Jamstack</div>
+              </div>
+              <div class="flex flex-wrap gap-2 text-base mb-2 font-sans">
+                <div><span class="font-semibold">Database:</span> MongoDB, Mongoose</div>
+              </div>
               <div class="flex flex-wrap gap-2 text-base font-sans">
-                <div><span class="font-semibold">Backend (Serverless and Jamstack):</span> Strapi, Firebase, GitHub Pages, Cloudflare Pages</div>
+                <div><span class="font-semibold">Tools and libraries:</span> Jest, Git, Socket.IO, PeerJS, Webpack, Electron, Plotly, GraphQL</div>
               </div>
             </div>
 
@@ -43,8 +48,8 @@
                   <img src="homepage/internet-usage-thumb.webp" alt="MyT internet usage">
                 </div>
                 <div class="flex flex-col gap-y-2 pt-4 pr-2 pl-3 md:pl-0">
-                  <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-blue-900">MyT Internet Usage</h3>
-                  <div class=" w-full group-hover:text-blue-900">Visualize internet usage data by scraping ISP website</div>
+                  <h3 class="font-light text-2xl md:text-5xl text-gray-900 group-hover:text-blue-900">my.t Internet Usage</h3>
+                  <div class=" w-full group-hover:text-blue-900">Extraction and visualization of internet consumption information sourced from ISP website</div>
                   <div class="flex gap-x-2">
                     <div class="pill bg-blue-500">jQuery</div>
                     <div class="pill bg-yellow-600">puppeteer.js</div>
@@ -113,7 +118,7 @@
                   <div class="flex gap-x-2">
                     <div class="pill bg-green-700">Nuxt</div>
                     <div class="pill bg-green-800">Tailwind CSS</div>
-                    <div class="pill bg-pink-700">Sass</div>
+                    <div class="pill bg-pink-700">SCSS</div>
                   </div>
                 </div>
               </a>
